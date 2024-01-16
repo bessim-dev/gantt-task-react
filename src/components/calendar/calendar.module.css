@@ -1,3 +1,8 @@
+:local {
+  --header-fill: var(--header-fill);
+  --header-stroke: var(--header-stroke);
+  --header-stroke-width: var(--header-stroke-width);
+}
 .calendarBottomText {
   text-anchor: middle;
   fill: #333;
@@ -25,7 +30,7 @@
 }
 
 .calendarHeader {
-  fill: #ffffff;
-  stroke: #e0e0e0;
-  stroke-width: 1.4;
+  fill: var(--header-fill);
+  stroke: var(--header-stroke);
+  stroke-width: var(--header-stroke-width);
 }
