@@ -3,7 +3,7 @@
   --calendar-header-stroke: var(--calendar-header-stroke);
   --calendar-header-stroke-width: var(--calendar-header-stroke-width);
   --calendar-header-top-text-fill: var(--calendar-header-top-text-fill);
-  --calendar-header-bottom-text-fill: var(--calendarheader--bottom-text-fill);
+  --calendar-header-bottom-text-fill: var(--calendar-header--bottom-text-fill);
   --calendar-header-tick-stroke: var(--calendar-header-tick-stroke);
 }
 .calendarBottomText {
@@ -34,6 +34,6 @@
 
 .calendarHeader {
   fill: var(--calendar-header-fill);
-  stroke: var(--header-stroke-width);
-  stroke-width: var(--header-stroke-width);
+  stroke: var(--calendar-header-stroke);
+  stroke-width: var(--calendar-header-stroke-width);
 }
