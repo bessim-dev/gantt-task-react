@@ -2,13 +2,13 @@
   --calendar-header-fill: var(--calendar-header-fill);
   --calendar-header-stroke: var(--calendar-header-stroke);
   --calendar-header-stroke-width: var(--calendar-header-stroke-width);
-  --calendar-top-text-fill: var(--calendar-top-text-fill);
-  --calendar-bottom-text-fill: var(--calendar-bottom-text-fill);
+  --calendar-header-top-text-fill: var(--calendar-header-top-text-fill);
+  --calendar-header-bottom-text-fill: var(--calendarheader--bottom-text-fill);
   --calendar-header-tick-stroke: var(--calendar-header-tick-stroke);
 }
 .calendarBottomText {
   text-anchor: middle;
-  fill: var(--calendar-bottom-text-fill);
+  fill: var(--calendar-header-bottom-text-fill);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -23,7 +23,7 @@
 
 .calendarTopText {
   text-anchor: middle;
-  fill: var(--calendar-top-text-fill);
+  fill: var(--calendar-header-top-text-fill);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -34,6 +34,6 @@
 
 .calendarHeader {
   fill: var(--calendar-header-fill);
-  stroke: var(--header-stroke-widthe);
+  stroke: var(--header-stroke-width);
   stroke-width: var(--header-stroke-width);
 }
