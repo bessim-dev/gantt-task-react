@@ -1,3 +1,6 @@
+:local {
+  --bar-handle: var(--bar-handle);
+}
 .barWrapper {
   cursor: pointer;
   outline: none;
@@ -9,7 +12,7 @@
 }
 
 .barHandle {
-  fill: #ddd;
+  fill: var(--bar-handle);
   cursor: ew-resize;
   opacity: 0;
   visibility: hidden;

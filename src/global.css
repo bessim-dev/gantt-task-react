@@ -12,6 +12,8 @@
   --calendar-header-bottom-text-fill: #333;
   --calendar-header-tick-stroke: #e6e4e4;
 
-  --bar-label-fill: #555;
-  --bar-label-outside-fill: #e0e0e0;
+  --bar-label-fill: #fff;
+  --bar-label-outside-fill: #555;
+
+  --bar-handle: #ddd;
 }
