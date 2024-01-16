@@ -1,6 +1,7 @@
 import React, { ReactChild } from "react";
 import { Task } from "../../types/public-types";
 import { addToDate } from "../../helpers/date-helper";
+import "../../global.css";
 import styles from "./grid.module.css";
 
 export type GridBodyProps = {

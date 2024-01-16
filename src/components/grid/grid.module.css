@@ -1,15 +1,21 @@
+:local {
+  --grid-row-color: var(--grid-row-color);
+  --grid-row-color-even: var(--grid-row-color-even);
+  --grid-row-line-color: var(--grid-row-line-color);
+  --grid-row-line-tick: var(--grid-row-line-tick);
+}
 .gridRow {
-  fill: #fff;
+  fill: var(--grid-row-color);
 }
 
 .gridRow:nth-child(even) {
-  fill: #f5f5f5;
+  fill: var(--grid-row-color-even);
 }
 
 .gridRowLine {
-  stroke: #ebeff2;
+  stroke: var(--grid-row-line-color);
 }
 
 .gridTick {
-  stroke: #e6e4e4;
+  stroke: var(--grid-row-line-tick);
 }
