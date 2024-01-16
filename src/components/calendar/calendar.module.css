@@ -1,7 +1,7 @@
 :local {
-  --header-fill: var(--calendar-header-fill);
-  --header-stroke: var(--calendar-header-stroke);
-  --header-stroke-width: var(--calendar-header-stroke-width);
+  --calendar-header-fill: var(--calendar-header-fill);
+  --calendar-header-stroke: var(--calendar-header-stroke);
+  --calendar-header-stroke-width: var(--calendar-header-stroke-width);
   --calendar-top-text-fill: var(--calendar-top-text-fill);
   --calendar-bottom-text-fill: var(--calendar-bottom-text-fill);
   --calendar-header-tick-stroke: var(--calendar-header-tick-stroke);
@@ -33,7 +33,7 @@
 }
 
 .calendarHeader {
-  fill: var(--header-fill);
-  stroke: var(--header-stroke);
+  fill: var(--calendar-header-fill);
+  stroke: var(--header-stroke-widthe);
   stroke-width: var(--header-stroke-width);
 }
