@@ -1,11 +1,14 @@
 :local {
-  --header-fill: var(--header-fill);
-  --header-stroke: var(--header-stroke);
-  --header-stroke-width: var(--header-stroke-width);
+  --header-fill: var(--calendar-header-fill);
+  --header-stroke: var(--calendar-header-stroke);
+  --header-stroke-width: var(--calendar-header-stroke-width);
+  --calendar-top-text-fill: var(--calendar-top-text-fill);
+  --calendar-bottom-text-fill: var(--calendar-bottom-text-fill);
+  --calendar-header-tick-stroke: var(--calendar-header-tick-stroke);
 }
 .calendarBottomText {
   text-anchor: middle;
-  fill: #333;
+  fill: var(--calendar-bottom-text-fill);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -15,12 +18,12 @@
 }
 
 .calendarTopTick {
-  stroke: #e6e4e4;
+  stroke: var(--calendar-header-tick-stroke);
 }
 
 .calendarTopText {
   text-anchor: middle;
-  fill: #555;
+  fill: var(--calendar-top-text-fill);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;

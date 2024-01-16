@@ -4,7 +4,11 @@
   --grid-row-line-color: #ebeff2;
   --grid-row-line-tick: #e6e4e4;
 
-  --header-fill: #ffffff;
-  --header-stroke: #e0e0e0;
-  --header-stroke-width: 1.4;
+  --calendar-header-fill: #ffffff;
+  --calendar-header-stroke: #e0e0e0;
+  --calendar-header-stroke-width: 1.4;
+
+  --calendar-header-top-text-fill: #555;
+  --calendar-header-bottom-text-fill: #333;
+  --calendar-header-tick-stroke: #e6e4e4;
 }
