@@ -17,6 +17,6 @@
 
   --bar-handle: #ddd;
 
-  --scroll-bar-thumb-bg: rgba(0, 0, 0, 0.2);
-  --scroll-bar-thumb-hover-bg: rgba(0, 0, 0, 0.3);
+  --scrollbar-thumb-bg: rgba(0, 0, 0, 0.2);
+  --scrollbar-thumb-hover-bg: rgba(0, 0, 0, 0.3);
 }
