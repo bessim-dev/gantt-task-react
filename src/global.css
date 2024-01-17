@@ -16,4 +16,7 @@
   --bar-label-outside-fill: #555;
 
   --bar-handle: #ddd;
+
+  --scroll-bar-thumb-bg: rgba(0, 0, 0, 0.2);
+  --scroll-bar-thumb-hover-bg: rgba(0, 0, 0, 0.3);
 }
